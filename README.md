@@ -2,4 +2,4 @@
 
 > READ.me en desarrollo.
 
-Para ver los avances de las tareas y las notas de clase ir a /INPUTS
+Para ver los avances de las tareas y las notas de clase ir a /SCRIPTS
