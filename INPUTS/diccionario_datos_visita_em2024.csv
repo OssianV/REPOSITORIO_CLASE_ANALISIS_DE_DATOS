@@ -1,0 +1,71 @@
+#,nombre_campo,longitud,tipo,nemonico,catalogo,rango_claves
+1,Año estadístico,4,C,anio_estad,año_estadistico,2024
+2,Entidad de registro,2,C,ent_regis,centidad,1..32
+3,Mes de entrevista,2,N,mes_entrev,meses,1..12
+4,Día de entrevista,1,N,dia_entrev,dia_entrevista,"1,2,9"
+5,Sexo,1,N,sexo,condicion_biologica,"1,2"
+6,Edad,2,N,edad,edad,13..99
+7,Entidad de residencia habitual,2,C,ent_resid,centidad,"01..33,99"
+8,Municipio de residencia habitual,3,C,mun_resid,mpio2024,"000..570,999"
+9,País de residencia habitual en el extranjero,3,C,pais_resid,pais,"000,101..535,998,999"
+10,Nacionalidad del visitante,1,N,nacionalid,nacionalidad,"1,2,9"
+11,País de nacionalidad extranjera,3,C,pais_extra,pais,"000,101..535,998,999"
+12,Escolaridad,2,N,escolarida,escolaridad,"1..10,99"
+13,Condición de término del nivel de escolaridad,1,C,cond_escol,condicion_escolaridad,"1,2,9"
+14,Ocupación,2,N,ocupacion,ocupacion,"1..11,98 y 99"
+15,Primera lengua,1,C,lengua_1,lenguas1,1..9
+16,Segunda lengua,1,C,lengua_2,lenguas2,1..9
+17,Tercera lengua,1,C,lengua_3,lenguas2,1..9
+18,Estímulo familiar en la infancia,1,N,estim_fam,si_no_ne,"1,2,9"
+19,Frecuencia de visitas. Primera visita,1,N,prim_visit,si_no_ne,"1,2,9"
+20,Frecuencia de visitas. Visitas en el año,2,C,visit_anio,visitas,"0..30,98,99"
+21,Frecuencia de visitas. Años trascurridos de la Última visita,2,C,anios_visi,frecuencia_visitas,1..99
+22,Visitas a otros lugares de exhibición,1,N,vis_otros,si_no_ne,"1,2,9"
+23,Visitas a otros lugares de exhibición. Cuántos lugares ,2,C,viso_cuant,frecuencia_visitas,1..99
+24,Primer medio para enterarse del recinto,2,C,medio_1,medio,"1..12,99"
+25,Segundo medio para enterarse del recinto,2,C,medio_2,medio2,"1..12,99"
+26,Planeación de la visita,1,N,plan_visit,planeacion,"1,2,9"
+27,Motivo de la visita. Acompañar a alguien,1,N,mv_acomp,motivo,"0,1"
+28,Motivo de la visita. Cultura general,1,N,mv_cultura,motivo,"0,1"
+29,Motivo de la visita. Aprender,1,N,mv_aprend,motivo,"0,1"
+30,Motivo de la visita. Motivos escolares,1,N,mv_escolar,motivo,"0,1"
+31,Motivo de la visita. Motivos laborales,1,N,mv_laboral,motivo,"0,1"
+32,Motivo de la visita. Conocer la exposición,1,N,mv_conocer,motivo,"0,1"
+33,Motivo de la visita. Entretenimiento y diversión,1,N,mv_entrete,motivo,"0,1"
+34,Motivo de la visita. Ver el edificio (o zona arqueológica),1,N,mv_edifici,motivo,"0,1"
+35,Motivo de la visita. Talleres o cursos,1,N,mv_taller,motivo,"0,1"
+36,Motivo de la visita. Otro,1,N,mv_otro,motivo,"0,1"
+37,Medio de transporte utilizado para llegar al recinto,1,N,medio_tran,transporte,"1..7,9"
+38,Tiempo de traslado ,1,N,tiempo_tra,tiempo,1..9
+39,Tipo de entrada al museo,1,N,tipo_entra,entrada,"1,2,9"
+40,Persona que acompaña al visitante. Nadie,1,N,pav_nadie,compañia,"0,1"
+41,Persona que acompaña al visitante. Familia,1,N,pav_famili,compañia,"0,1"
+42,Persona que acompaña al visitante. Pareja/Novio(a),1,N,pav_pareja,compañia,"0,1"
+43,Persona que acompaña al visitante. Amigos/Conocidos,1,N,pav_amigo,compañia,"0,1"
+44,Persona que acompaña al visitante. Compañeros de trabajo,1,N,pav_compa,compañia,"0,1"
+45,Persona que acompaña al visitante. Grupo escolar,1,N,pav_escola,compañia,"0,1"
+46,"Persona que acompaña al visitante. Grupo de esparcimiento (turístico, recreativo, etc.)",1,N,pav_turist,compañia,"0,1"
+47,Persona que acompaña al visitante. Otro,1,N,pav_otro,compañia,"0,1"
+48,Tamaño de grupo,3,C,tam_grupo,tamaño_grupo,1..999
+49,Tamaño de grupo. Menores de doce años,3,C,menores_12,tamaño_grupo,1..999
+50,Servicios utilizados. Salas de exhibición,1,N,su_salas,servicio_utilizado,"0,1"
+51,Servicios utilizados. Tienda (compra de productos),1,N,su_tienda,servicio_utilizado,"0,1"
+52,Servicios utilizados. Visita guiada,1,N,su_visguia,servicio_utilizado,"0,1"
+53,Servicios utilizados. Servicio de audioguía,1,N,su_audiog,servicio_utilizado,"0,1"
+54,Servicios utilizados. Talleres educativos,1,N,su_taller,servicio_utilizado,"0,1"
+55,Servicios utilizados. Actividades académicas,1,N,su_academ,servicio_utilizado,"0,1"
+56,Servicios utilizados. Actividades culturales,1,N,su_acultur,servicio_utilizado,"0,1"
+57,Servicios utilizados. Biblioteca/Centro de documentación,1,N,su_bibliot,servicio_utilizado,"0,1"
+58,Servicios utilizados. Archivo histórico,1,N,su_archivo,servicio_utilizado,"0,1"
+59,Servicios utilizados. Silla de ruedas,1,N,su_silla,servicio_utilizado,"0,1"
+60,Servicios utilizados. Otro,1,N,su_otro,servicio_utilizado,"0,1"
+61,Opinión sobre las exposiciones,1,N,opin_expos,opiniones,"1..6,9"
+62,Nivel de aprendizaje,2,C,niv_aprend,aprendizaje,"0..10,99"
+63,Duración de la visita en horas,2,N,dur_vis_h,visita_horas,"0..8,98,99"
+64,Duración de la visita en minutos,2,N,dur_vis_m,minutos,"0..59,99"
+65,Intención de repetir la visita,1,N,repetir_vi,si_no_ne,"1,2,9"
+66,Recomienda la visita,2,N,recomie_vi,recomienda,"11..16,21..27,99"
+67,Evaluación general,2,N,eval_gral,evaluacion,"0..10,99"
+68,Primer motivo para no visitar,2,C,m_novis_1,motivo_no_visita,"1..10,99"
+69,Segundo motivo para no visitar,2,C,m_novis_2,motivo_no_visita2,"1..10,99"
+70,Tercer motivo para no visitar,2,C,m_novis_3,motivo_no_visita2,"1..10,99"
